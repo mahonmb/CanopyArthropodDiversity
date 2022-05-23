@@ -1,0 +1,24 @@
+Species_Code,Subfamily,Genus,Species,ID,HL,REL,RLL,Colony_size,Feeding_preference,Nest_substrate ,Primary_Habitat,Secondary_Habitat,Seed_Disperser,Slavemaker_S.P,Source
+aphful,Myrmicinae,Aphaenogaster,fulva,Aphaenogaster_fulva,1.1582,0.172681748,1.323778277,Medium,Granivore,Wood,Open,Wet,Y,N,Del Toro et al. 2015
+aphmar,Myrmicinae,Aphaenogaster,mariae,Aphaenogaster_mariae,1.11153,0.19052251,1.107301305,,,Wood,Forests,Wet,,Y,Coovert 2005
+aphpic,Myrmicinae,Aphaenogaster,picea,Aphaenogaster_picea,1.1541,0.199116194,1.198682956,Medium,Granivore,Wood,Conifer forests,Wet,Y,N,Del Toro et al. 2015
+aphrud,Myrmicinae,Aphaenogaster,rudis,Aphaenogaster_rudis,1.122,0.169953209,1.250445633,Medium,Granivore,Wood,Forests,Wet,Y,N,Del Toro et al. 2015
+aphten,Myrmicinae,Aphaenogaster,tennesseensis,Aphaenogaster_tennesseensis,1.292,0.160990712,1.160990712,Large,Predatory,Wood,Forests,Wet,N,Y,Del Toro et al. 2015
+bradep,Formicinae,Brachymyrmex,depilis,Brachymyrmex_depilis,0.26,0.153846154,0.615384615,Medium,Honeydew,Soil ,Open,Edge,N,N,Del Toro et al. 2015
+camame,Formicinae,Camponotus,americanus,Camponotus_americanus,0.916833333,0.248310945,1.33757253,,Omnivore,Soil ,Open,Edge,N,N,Del Toro et al. 2015
+camcar,Formicinae,Camponotus,caryae,Camponotus_caryae,1.14138,0.271178927,1.007176257,,Omnivore,Wood,Forests,Edge,N,N,Coovert 2005
+camchr,Formicinae,Camponotus,chromaoides,Camponotus_chromaoides,2.087555556,0.230625931,1.259474132,,Omnivore,Wood,Forests,Edge,N,N,Del Toro et al. 2015
+camnea,Formicinae,Camponotus,nearctica,Camponotus_nearctica,1.955,0.232154341,1.198220793,Medium,Omnivore,Wood,Forests,Edge,N,N,Del Toro et al. 2015
+campen,Formicinae,Camponotus,pennsylvanicus,Camponotus_pennsylvanicus,2.238875,0.232538663,1.20453911,Very Large,Omnivore,Wood,Forests,Edge,N,N,Del Toro et al. 2015
+camsub,Formicinae,Camponotus,subbarbatus,Camponotus_subbarbatus,1.097,0.265876634,1.08872683,,Omnivore,Wood,Forests,Edge,N,N,Del Toro et al. 2015
+colmis,Formicinae,Colobopsis,impressa,Colobopsis_impressa,0.95105,0.274277241,0.854015046,,Honeydew,Wood,Forests,Edge,N,N,Coovert 2005
+crecer,Myrmicinae,Crematogaster,cerasi,Crematogaster_cerasi,0.71066,0.253543077,0.881386061,Very Large,Granivore,Wood,Forests,Edge,Y,N,Del Toro et al. 2015
+forpal,Formicinae,Formica,palidefulva,Formica_palidefulva,1.3704,0.280429072,1.510872738,Medium,Omnivore,Soil,Edge,Grassy,N,N,Del Toro et al. 2015
+forsub3,Formicinae,Formica,subsericea,Formica_subsericea,1.489,0.331556414,1.297221289,Large,Omnivore,Soil ,Open,Rocky,N,N,Del Toro et al. 2015
+lasali,Formicinae,Lasius,alienus,Lasius_alienus,0.800363636,0.241481145,0.990686052,Medium,Omnivore,Soil ,Open,Sandy ,Y,N,Del Toro et al. 2015
+nylfai,Formicinae,Nylanderia,faisonensis,Nylanderia_faisonensis,0.665,0.233082707,0.879699248,Medium,Omnivore,Soil,Forests,Edge,N,N,Coovert 2005; AntWiki.com; Lynch et al. 1980
+preimp,Formicinae,Prenolepis,imparis,Prenolepis_imparis,0.81856,0.274384285,1.346999609,Large,Omnivore,Soil,Open,,N,N,Del Toro et al. 2015
+tapses,Dolichoderinae,Tapinoma,sessile,Tapinoma_sessile,0.582,0.24742268,1.046391753,Large,Omnivore,Soil,Forests,Grassy,N,N,Del Toro et al. 2015
+temcur,Myrmicinae,Temnothorax,curvispinosus,Temnothorax_curvispinosus,0.9546875,0.231085714,0.950628571,Small,Omnivore,Acorns,Forests,Grassy,N,N,Del Toro et al. 2015
+temlon,Myrmicinae,Temnothorax,longispinosus,Temnothorax_longispinosus,0.9622,0.22829582,0.958842444,Small,Omnivore,Acorns,Forests,,N,N,Del Toro et al. 2015
+temsch,Myrmicinae,Temnothorax,schaumii,Temnothorax_schaumii,0.865,0.186936416,0.825086705,Small,Omnivore,Wood,Deciduous forests,Grassy,N,N,Del Toro et al. 2015

@@ -1,0 +1,13 @@
+ID,Aphaenogaster_fulva,Aphaenogaster_mariae,Aphaenogaster_picea,Aphaenogaster_rudis,Aphaenogaster_tennesseensis,Camponotus_americanus,Camponotus_caryae,Camponotus_chromaoides,Camponotus_nearctica,Camponotus_pennsylvanicus,Camponotus_subbarbatus,Colobopsis_mississippiensis,Crematogaster_cerasi,Formica_palidefulva,Formica_subsericea,Lasius_alienus,Prenolepis_imparis,Tapinoma_sessile,Temnothorax_curvispinosus,Temnothorax_longispinosus,Temnothorax_schaumii
+BROKFar,0,0,0,1,0,0,0,23,30,29,0,2,1,0,0,36,22,0,5,0,2
+BROKNear,0,1,1,2,0,1,15,7,51,8,3,0,9,1,1,80,113,0,1,0,1
+CACRFar,0,0,0,0,0,0,0,15,28,57,0,0,0,0,0,5,3,0,8,0,5
+CACRNear,0,0,0,0,0,0,9,5,24,40,4,2,0,0,0,3,13,0,10,0,3
+CLCRCemRd,0,0,1,0,1,0,6,82,41,43,2,0,0,0,21,5,0,1,5,0,8
+CLCRMemRock,0,0,1,1,0,0,2,0,22,33,3,0,3,0,10,65,72,0,14,0,9
+EOAChalet,0,0,0,1,87,0,0,1,33,29,1,0,0,0,3,6,0,0,3,0,5
+EOALynx,0,3,3,0,11,1,1,12,31,4,6,0,0,0,60,6,5,12,8,1,35
+HWSPLeft,0,70,0,0,0,2,1,46,72,10,13,5,67,0,0,10,13,0,37,0,8
+HWSPRight,7,147,1,1,0,2,3,3,64,36,4,0,3,0,16,1,52,3,11,0,6
+SSFOFar,1,286,0,0,0,0,8,7,101,3,10,0,0,2,9,101,0,0,37,0,13
+SSFONear,0,147,0,1,0,0,2,2,49,7,8,0,0,0,2,15,1,0,14,1,11

@@ -1,0 +1,14 @@
+ECO,Agelenidae,Anyphaenidae,Araneidae,Clubionidae,Corinnidae,Dictynidae,Eutichuridae,Gnaphosidae,Hahniidae,Linyphiidae,Liocranidae,Lycosidae,Philodromidae,Phrurolithidae,Pisauridae,Salticidae,Tetragnathidae,Theridiidae,Thomisidae
+BROKFar,0,27,151,11,7,1,0,2,4,22,2,1,7,5,8,61,9,49,9
+BROKNear,0,38,61,44,0,3,0,2,0,18,1,0,27,0,6,58,12,42,17
+CACRFar,0,86,84,3,0,0,0,2,7,44,1,0,5,1,9,46,3,37,16
+CACRNear,0,125,104,18,0,12,0,3,0,93,1,0,23,0,11,97,21,58,23
+CLCRCemRd,0,34,89,19,0,4,0,2,0,82,0,0,18,0,1,40,7,49,25
+CLCRMemRock,0,23,42,4,1,3,0,3,0,15,0,0,2,1,2,25,4,26,30
+EOAChalet,0,29,78,17,0,1,0,2,0,67,0,0,12,0,14,126,19,44,41
+EOALynx,0,17,79,40,0,3,0,1,0,262,0,0,5,0,4,45,1,43,30
+HWSPLeft,0,34,101,53,0,20,2,2,0,10,0,0,7,3,10,94,14,51,22
+HWSPRight,1,123,196,24,2,5,1,7,1,47,1,0,33,0,11,149,15,54,13
+SSFOFar,1,27,72,37,0,5,0,4,0,105,0,0,8,3,1,45,2,40,46
+SSFONear,0,38,118,55,7,11,0,1,0,117,2,1,6,0,8,65,3,32,65
+,2,601,1175,325,17,68,3,31,12,882,8,2,153,13,85,851,110,525,337
