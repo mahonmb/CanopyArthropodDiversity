@@ -8,7 +8,7 @@ stnddiv <- read.csv("Data/StandDivDat_3719.csv")
 colnames(stnddiv)
 
 ##scale all variables, so that standardized regression coefficients can be obtained
-stnddiv[,c(4:31)] <- scale(stnddiv[,c(4:31)])
+stnddiv[,c(6:31)] <- scale(stnddiv[,c(6:31)])
 
 #Ant models
 ##Taxonomic Diversity
@@ -122,7 +122,7 @@ spider.f.bm.d
 
 
 spider.f.bm.best <- lm(SFBm ~ PrecipSeas + TRich, data = stnddiv)
-summary(spider.f.bm)
+summary(spider.f.bm.best)
 
 
 ###Alpha
@@ -136,21 +136,80 @@ spider.f.al.d <- summary(model.avg(dredge(spider.f.al,
 spider.f.al.d
 
 spider.f.al.best <- lm(SFAl ~ PrecipSeas + X6o5KM_PARA_MN, data = stnddiv)
+summary(spider.f.al.best)
 
 ################################################################################
 ##Moran's I test for spatial autocorrelation
 library(ape)
 library(geosphere)
+library(ncf)
 
-standdists <- as.matrix(distm(cbind(stnddiv$Long*10, stnddiv$Lat)))
-standdists.inv <- 1/standdists
-diag(standdists.inv) <- 0
+colnames(stnddiv)
+x = stnddiv$Long*10
+y = stnddiv$Lat
 
-Moran.I(stnddiv$AntAl, standdists.inv)
-Moran.I(stnddiv$AntBm, standdists.inv)
-Moran.I(stnddiv$AFAl, standdists.inv)
-Moran.I(stnddiv$AFBm, standdists.inv)
-Moran.I(stnddiv$SpiBm, standdists.inv)
-Moran.I(stnddiv$SpiAl, standdists.inv)
-Moran.I(stnddiv$SFBm, standdists.inv)
-Moran.I(stnddiv$SFAl, standdists.inv)
+#### IMPORTANT BELOW
+
+##Ant BetaM - CLEAR
+ncf.cor <- correlog(x, y, residuals(ant.bm.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
+
+##Ant Alpha - CLEAR
+ncf.cor <- correlog(x, y, residuals(ant.al.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
+
+##Spider BetaM - CLEAR
+ncf.cor <- correlog(x, y, residuals(spider.bm.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
+
+##Spider Alpha - CLEAR
+ncf.cor <- correlog(x, y, residuals(spider.al.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
+
+##Ant F BetaM - CLEAR
+ncf.cor <- correlog(x, y, residuals(ant.f.bm.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
+
+##Ant F Alpha - CLEAR
+ncf.cor <- correlog(x, y, residuals(ant.f.al.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
+
+##Spider F BetaM - CLEAR
+ncf.cor <- correlog(x, y, residuals(spider.f.bm.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
+
+##Spider F Alpha - CLEAR
+ncf.cor <- correlog(x, y, residuals(spider.f.al.best),
+                    increment=0.4,
+                    resamp=999)
+
+p.adjust(ncf.cor$p, method = "BH", n = length(ncf.cor$p))
+
